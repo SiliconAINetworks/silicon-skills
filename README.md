@@ -13,9 +13,9 @@ No theory, no vibe coding. Every rule exists because ignoring it once cost real 
 | | What it gives your agent | Install |
 |---|---|---|
 | **Silicon Skills** | *How* to work: measure before fixing, check the whole chain, deploy safely | `npx skills add SiliconAINetworks/silicon-skills` |
-| **[Silicon Transfer MCP](https://github.com/SiliconAINetworks/mcp-server-ftp)** | The *tools* to deploy: FTP/FTPS/SFTP, checksum compare, backup, smart sync | see its README |
+| **[Silicon Transfer MCP](https://github.com/SiliconAINetworks/silicon-transfer-mcp-server)** | The *tools* to deploy: FTP/FTPS/SFTP with a SHA-256 proof on every transfer | `npm install -g silicon-transfer-mcp-server` |
 
-The skills work on their own. Together with the MCP, `safe-deploy` has its backup, checksum and sync steps built right in.
+The skills work on their own. Together with the MCP, `safe-deploy` gets its checksum verification built into every single transfer: *prove it, then claim it.*
 
 ---
 
@@ -60,7 +60,7 @@ Pick the skills you want – they are independent.
 
 Neun Arbeitsregeln für Claude Code, Codex, Cursor und jeden anderen Coding-Agenten – entstanden in Monaten täglicher Zusammenarbeit zwischen einem Entwickler und seiner KI an echten Produkten. Jede Regel gibt es, weil ihr Fehlen einmal echte Stunden gekostet hat.
 
-Die Skills sind auf Englisch, damit jeder Agent sie versteht. Sie funktionieren einzeln und ohne weitere Werkzeuge; zusammen mit dem [Silicon Transfer MCP](https://github.com/SiliconAINetworks/mcp-server-ftp) bekommt `safe-deploy` Backup, Prüfsummen-Vergleich und Smart-Sync direkt als Werkzeuge.
+Die Skills sind auf Englisch, damit jeder Agent sie versteht. Sie funktionieren einzeln und ohne weitere Werkzeuge; zusammen mit dem [Silicon Transfer MCP](https://github.com/SiliconAINetworks/silicon-transfer-mcp-server) bekommt `safe-deploy` bei jeder Übertragung den SHA-256-Beweis gleich mitgeliefert.
 
 ---
 

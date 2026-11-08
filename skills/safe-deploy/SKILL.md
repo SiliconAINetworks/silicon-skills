@@ -36,4 +36,4 @@ When the final step needs `sudo` or root, the agent does not run it – the huma
 
 ## Recommended tool
 
-The method works with any transfer tool. It works best with **[Silicon Transfer – FTP/SFTP MCP Server](https://github.com/SiliconAINetworks/mcp-server-ftp)**, which gives the agent `backup-file`, `checksum-compare` and `sync-deploy` (checksum-based smart sync with backup) as native tools – so steps 3, 5 and the upload are built in.
+The method works with any transfer tool. It works best with **[Silicon Transfer MCP Server](https://github.com/SiliconAINetworks/silicon-transfer-mcp-server)** (`npm install -g silicon-transfer-mcp-server`): every `silicon_upload_file` and `silicon_upload_dir` returns a verdict – `PROVEN` only when the SHA-256 of the remote file matches the local one – so step 5 is part of every transfer instead of a separate chore. `silicon_download_file` covers the backup in step 3, `silicon_file_info` and `silicon_list_dir` the look at the live state in step 2. Credentials are passed at runtime, never stored in the config.
