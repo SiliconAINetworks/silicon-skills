@@ -1,0 +1,13 @@
+{
+  "name": "silicon-skills",
+  "version": "1.0.0",
+  "description": "Nine working rules for coding agents: measure before fixing, check the whole chain, meeting first, git discipline, clean separation, honest UI, safe deploy, read before claim, encoding-safe edits.",
+  "author": {
+    "name": "Silicon Networks",
+    "url": "https://siliconnetworks.ch"
+  },
+  "homepage": "https://github.com/SiliconAINetworks/silicon-skills",
+  "repository": "https://github.com/SiliconAINetworks/silicon-skills",
+  "license": "MIT",
+  "keywords": ["skills", "claude-code", "agents", "debugging", "git", "deploy", "sftp", "workflow"]
+}

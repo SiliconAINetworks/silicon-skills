@@ -1,0 +1,14 @@
+{
+  "name": "silicon-skills",
+  "owner": {
+    "name": "Silicon Networks",
+    "url": "https://siliconnetworks.ch"
+  },
+  "plugins": [
+    {
+      "name": "silicon-skills",
+      "source": "./",
+      "description": "Nine working rules for coding agents, forged on real products. Graduated from the Donkey School."
+    }
+  ]
+}
